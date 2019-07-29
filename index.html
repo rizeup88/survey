@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<title>Fill Out a Survey!</title>
+    	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    	<script src="js/jquery-3.4.1.js"></script>
+    	<script src="js/scripts.js"></script>
+  	</head>
+  	<body>
+  		<div class="container">
+  			<form id="survey">
+  				<h1>Take a minute to fill out the survey below...</h1>
+  				<p>Your feedback will be vital to our research. Be as honest as possible, and enjoy!</p>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+  						<label for="name">Enter your name</label>
+  						<input id="name" class="form-control" type="text">
+  					</div>
+  				</div>
+  				<div class="form-row">
+  					<div class="form-group col-md-6">
+  						<p>Of the food items listed below, please select your favorite...</p>
+  						<select class="form-control" id="food">
+  							<option selected>Choose your favorite</option>
+  							<option>Pizza</option>
+  							<option>Sushi</option>
+  							<option>Tacos</option>
+  							<option>Hamburgers</option>
+  							<option>Soup</option>
+						</select>
+  					</div>
+  				</div>
+  				<div class="form-row">
+  					<div class="form-group col-md-6">
+  						<p>Of the genres of music listed below, please select your favorite...</p>
+  						<select class="form-control" id="music">
+  							<option selected>Choose your favorite</option>
+  							<option>R&B/Soul</option>
+  							<option>Classical</option>
+  							<option>Pop/Rock</option>
+  							<option>Hip-Hop/Rap</option>
+  							<option>Jazz</option>
+						</select>
+  					</div>
+  				</div>
+  				<div class="form-row">
+  					<div class="form-group col-md-6">
+  						<p>Of the methods of transportation listed below, please select the one you use most...</p>
+  						<select class="form-control" id="transportation">
+  							<option selected>Choose your favorite</option>
+  							<option>Car</option>
+  							<option>Bus</option>
+  							<option>Train/Subway</option>
+  							<option>Airplane</option>
+  							<option>Boat</option>
+						</select>
+  					</div>
+  				</div>
+  				<button type="submit" class="btn btn-primary">Submit</button>
+  			</form>
+  		</div>
+  		<div id="results">
+        	<div class="container">
+  			  	<h4>Here are your answers given... </h4>
+          		<p>Name: <span class="name"></span><br>Favorite Food: <span class="food"></span><br>Favorite Genre of Music: <span class="music"></span><br>Favorite Method of Transportation: <span class="transportation"></span></p>
+        	</div>
+  		</div>
+  	</body>
+</html>

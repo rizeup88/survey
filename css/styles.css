@@ -1,0 +1,12 @@
+#survey {
+	margin-top: 1em;
+}
+
+#results {
+	margin-top: 2em;
+	display: none;
+}
+
+.btn {
+	margin-top: 1em;
+}
